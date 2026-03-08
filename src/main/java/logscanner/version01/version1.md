@@ -113,4 +113,4 @@ represent the data.
 
 ---
 
-**Next**: [Version 02 — Memory-Mapped I/O →](./src/main/java/logscanner/version02/version2.md)
+**Next**: [Version 02 — Memory-Mapped I/O →](../version02/version2.md)
