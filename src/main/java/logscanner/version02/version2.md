@@ -153,4 +153,4 @@ instead of boxing, hashing, and merging.
 
 ---
 
-**Next**: [Version 03 — Zero Allocation →](./src/main/java/logscanner/version03/version3.md)
+**Next**: [Version 03 — Zero Allocation →](../version03/version3.md)
