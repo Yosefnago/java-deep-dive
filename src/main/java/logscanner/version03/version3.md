@@ -196,4 +196,4 @@ what single-threaded scalar processing can achieve on this workload.
 
 ---
 
-**Next**: [Version 04 — BCE & MemorySegment →](./version4.md)
+**Next**: [Version 04 — BCE & MemorySegment →](./src/main/java/logscanner/version04/version4.md)
