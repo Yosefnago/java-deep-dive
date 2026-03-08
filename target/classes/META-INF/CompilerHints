@@ -1,0 +1,17 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,logscanner/version01/LogScannerV01.init
+inline,logscanner/version01/LogScannerV01.measureLogicOnly
+inline,logscanner/version01/LogScannerV01.resetCounters
+inline,logscanner/version02/LogScannerV02.init
+inline,logscanner/version02/LogScannerV02.measureLogicOnly
+inline,logscanner/version02/LogScannerV02.resetCounters
+inline,logscanner/version03/LogScannerV03.init
+inline,logscanner/version03/LogScannerV03.measureLogicOnly
+inline,logscanner/version03/LogScannerV03.resetCounters
+inline,logscanner/version04/LogScannerV04.init
+inline,logscanner/version04/LogScannerV04.measureLogicOnly
+inline,logscanner/version04/LogScannerV04.resetCounters
