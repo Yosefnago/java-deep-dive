@@ -115,10 +115,10 @@ java -jar target/benchmarks.jar logscanner.version04.LogScannerV04 -prof gc
 
 | Version              | Approach                            | Key Idea                                              |
 |:---------------------|:------------------------------------|:------------------------------------------------------|
-| [V01](./version1.md) | `Files.readAllLines()` + Stream API | Baseline, readable, straightforward, GC-bound         |
-| [V02](./version2.md) | `MappedByteBuffer` + byte scanning  | Eliminate `String` objects, move I/O off the Heap     |
-| [V03](./version3.md) | `getInt()` + `int[24]`              | Remove the last allocations, reach zero GC            |
-| [V04](./version4.md) | BCE bitmask + `MemorySegment`       | Eliminate JIT bounds checks, modernize the memory API |
+| [V01](./src/main/java/logscanner/version01/version1.md) | `Files.readAllLines()` + Stream API | Baseline, readable, straightforward, GC-bound         |
+| [V02](./src/main/java/logscanner/version01/version2.md) | `MappedByteBuffer` + byte scanning  | Eliminate `String` objects, move I/O off the Heap     |
+| [V03](./src/main/java/logscanner/version01/version3.md) | `getInt()` + `int[24]`              | Remove the last allocations, reach zero GC            |
+| [V04](./src/main/java/logscanner/version01/version4.md) | BCE bitmask + `MemorySegment`       | Eliminate JIT bounds checks, modernize the memory API |
 
 ---
 
