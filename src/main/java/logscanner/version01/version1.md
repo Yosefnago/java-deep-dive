@@ -108,9 +108,9 @@ represent the data.
 | Stream API creating intermediate lists   | Manual `for` loop scanning bytes with index pointers                  |
 | `Integer.parseInt()` for hour extraction | ASCII arithmetic: `(byte - 48)` gets the digit value in one operation |
 
-> ⚠️ Version 02 will dramatically reduce allocation — but not eliminate it
+> ⚠️ Version 02 will dramatically reduce allocation - but not eliminate it
 > entirely. That's the goal of Version 03.
 
 ---
 
-**Next**: [Version 02 — Memory-Mapped I/O →](../version02/version2.md)
+**Next**: [Version 02 - Memory-Mapped I/O →](../version02/version2.md)
